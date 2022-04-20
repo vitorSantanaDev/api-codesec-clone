@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_card_passes",
+  "info": {
+    "name": "card_pass",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "ilustration": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

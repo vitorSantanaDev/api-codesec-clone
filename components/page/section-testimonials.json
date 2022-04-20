@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_section_testimonials",
+  "info": {
+    "name": "section_testimonials",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.testimonial",
+      "required": true
+    }
+  }
+}

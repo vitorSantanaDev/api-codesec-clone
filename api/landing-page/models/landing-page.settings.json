@@ -1,0 +1,97 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "section_hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-hero",
+      "required": true
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.form",
+      "required": true
+    },
+    "section_infos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-infos",
+      "required": true
+    },
+    "section_about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about",
+      "required": true
+    },
+    "section_classes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-classes"
+    },
+    "section_how_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-how-works",
+      "required": true
+    },
+    "section_about_mentor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-mentor",
+      "required": true
+    },
+    "section_testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-testimonials"
+    },
+    "section_participate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-participate",
+      "required": true
+    },
+    "section_faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq",
+      "required": true
+    },
+    "section_register": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-register",
+      "required": true
+    },
+    "form_register": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.form",
+      "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer",
+      "required": true
+    }
+  }
+}

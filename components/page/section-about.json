@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_section_abouts",
+  "info": {
+    "name": "section_about",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "infos_about": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.infos-about",
+      "required": true
+    },
+    "ilustration_codesec": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

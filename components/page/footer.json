@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_footers",
+  "info": {
+    "name": "footer",
+    "icon": "dice-four"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "footer_content": {
+      "type": "string",
+      "required": true
+    },
+    "social_link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-link",
+      "required": true
+    }
+  }
+}

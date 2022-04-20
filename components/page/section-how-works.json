@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_section_how_works",
+  "info": {
+    "name": "section_how_works",
+    "icon": "wrench"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "card_pass": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card-pass",
+      "required": true
+    }
+  }
+}

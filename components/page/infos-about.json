@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_infos_abouts",
+  "info": {
+    "name": "infos_about",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

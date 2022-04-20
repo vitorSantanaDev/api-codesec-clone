@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_section_classes",
+  "info": {
+    "name": "section_classes",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "infos_classe": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.infos-classe",
+      "required": true
+    }
+  }
+}

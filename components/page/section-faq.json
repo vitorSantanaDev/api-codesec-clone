@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_section_faqs",
+  "info": {
+    "name": "section_faq",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "question_faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.question-faq",
+      "required": true
+    }
+  }
+}

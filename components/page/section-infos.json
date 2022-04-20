@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_section_infos",
+  "info": {
+    "name": "section_infos",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "info_icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.info-icon",
+      "required": true
+    }
+  }
+}

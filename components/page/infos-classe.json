@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_infos_classes",
+  "info": {
+    "name": "infos_classe",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "data_classe": {
+      "type": "string",
+      "required": true
+    },
+    "day_and_hour": {
+      "type": "string",
+      "required": true
+    },
+    "icon_ilustration": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "classe_number": {
+      "type": "string",
+      "required": true
+    },
+    "title_classe": {
+      "type": "string"
+    },
+    "description_classe": {
+      "type": "richtext"
+    }
+  }
+}
