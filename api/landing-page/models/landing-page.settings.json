@@ -83,7 +83,7 @@
     },
     "form_register": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page.form",
       "required": true
     },
