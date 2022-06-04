@@ -108,7 +108,7 @@ coverage
 
 .env
 license.txt
-database-data.md
+database.md
 exports
 *.cache
 build
