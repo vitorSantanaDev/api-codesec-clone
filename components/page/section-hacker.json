@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_hackers",
+  "info": {
+    "name": "section_hacker",
+    "icon": "laptop-code"
+  },
+  "options": {},
+  "attributes": {
+    "illustration": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

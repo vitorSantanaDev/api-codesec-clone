@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_link_heroes",
+  "info": {
+    "name": "link_hero",
+    "icon": "cloud-rain"
+  },
+  "options": {},
+  "attributes": {
+    "link_text": {
+      "type": "string",
+      "required": true
+    },
+    "link_url": {
+      "type": "string",
+      "required": true
+    },
+    "link_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

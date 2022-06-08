@@ -20,12 +20,6 @@
       "repeatable": true,
       "component": "page.infos-classe",
       "required": true
-    },
-    "button_register": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.button",
-      "required": true
     }
   }
 }

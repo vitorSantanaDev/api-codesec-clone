@@ -2,7 +2,8 @@
   "collectionName": "components_page_infos_classes",
   "info": {
     "name": "infos_classe",
-    "icon": "atlas"
+    "icon": "atlas",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,7 +16,7 @@
       "required": true
     },
     "icon_ilustration": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"

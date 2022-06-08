@@ -23,12 +23,6 @@
       "component": "page.section-hero",
       "required": true
     },
-    "form": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.form",
-      "required": true
-    },
     "section_infos": {
       "type": "component",
       "repeatable": false,
@@ -81,16 +75,16 @@
       "component": "page.section-register",
       "required": true
     },
-    "form_register": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.form",
-      "required": true
-    },
     "footer": {
       "type": "component",
       "repeatable": false,
       "component": "page.footer",
+      "required": true
+    },
+    "section_hacker": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-hacker",
       "required": true
     }
   }

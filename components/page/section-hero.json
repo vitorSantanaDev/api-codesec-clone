@@ -19,11 +19,25 @@
       "type": "richtext",
       "required": true
     },
-    "link": {
+    "subtitle_icon": {
+      "type": "boolean",
+      "required": true
+    },
+    "link_hero": {
       "type": "component",
       "repeatable": false,
-      "component": "page.button",
+      "component": "page.link-hero",
       "required": true
+    },
+    "icon_subtitle": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
